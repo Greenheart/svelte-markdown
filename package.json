@@ -4,8 +4,8 @@
   "version": "0.3.0",
   "type": "module",
   "main": "dist/sveltemarkdown.js",
-  "module": "dist/sveltemarkdown.es.js",
   "jsnext:main": "dist/sveltemarkdown.es.js",
+  "module": "src/index.js",
   "svelte": "src/index.js",
   "files": [
     "dist",

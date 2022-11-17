@@ -16,13 +16,13 @@ export default {
   input: 'src/index.js',
   output: [
     {
-      file: pkg.module,
+      file: 'dist/sveltemarkdown.es.js',
       format: 'es',
       sourcemap: true,
       name: pkg.name,
     },
     {
-      file: pkg.main,
+      file: 'dist/sveltemarkdown.js',
       format: 'umd',
       sourcemap: true,
       name: pkg.name,
